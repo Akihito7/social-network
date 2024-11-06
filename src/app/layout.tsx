@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { primaryFont } from "../functions/font"
+import { primaryFont } from "../functions/font";
+import { Sidebar } from "@/components/sidebar";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={primaryFont.variable}>
+        <Sidebar />
         {children}
       </body>
     </html>

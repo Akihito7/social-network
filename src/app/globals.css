@@ -5,5 +5,7 @@
 }
 
 :root {
-  font-size: 62.5%
+  font-size: 62.5%;
+  --primary-text-color: #E1E1E6;
+  --background-page-color : #121214;
 }
