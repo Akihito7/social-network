@@ -1,0 +1,69 @@
+.container {
+  width: 100dvw;
+  min-height: 100dvh;
+  background-color: var(--background-page-color);
+  font-family: var(--type-font-primary)
+}
+
+.containerMain {
+  width: 100%;
+  padding-left: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+
+.containerBackground {
+  width: 100%;
+  height: 22rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.containerBackground img {
+  object-fit: cover;
+  max-height: 22rem;
+}
+
+.userPhoto {
+  border-radius: 99px;
+  width: 12rem;
+  height: 12rem;
+  position: absolute;
+  left: 36rem;
+  top: 16rem;
+  z-index: 1;
+}
+
+.containerAboutProfile {
+  padding-left: 25.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.containerAboutProfile span {
+  font-size: 1.6rem;
+  color: var(--primary-text-color);
+}
+
+.containerAboutProfile p {
+  font-size: 1.6rem;
+  color: var(--primary-text-color);
+}
+
+.row {
+  margin: 0 auto;
+  height: 1px;
+  width:100%;
+  max-width: 90rem;
+  background-color: #9B9A9A;
+}
+
+
+.containerGallery {
+  margin: 0 auto;
+  width: 70rem;
+}
