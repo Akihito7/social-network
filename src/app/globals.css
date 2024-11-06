@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 :root {
   font-size: 62.5%;
   --primary-text-color: #E1E1E6;
   --background-page-color : #121214;
+  --background-modal-color : #333232;
 }
