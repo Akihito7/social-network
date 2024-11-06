@@ -1,0 +1,28 @@
+.container {
+  position: fixed;
+  bottom: 20rem;
+  width: 70rem;
+  min-height: 40rem;
+  max-height: 80dvh;
+  max-width: 80dvw;
+  background-color: var(--background-modal-color);
+  padding: 3.4rem;
+  border-radius: 10px;
+}
+
+.containerNotifications {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.p {
+  font-size: 1.8rem;
+  color: var(--primary-text-color);
+}
+
+.container h1 {
+  font-size: 2.8rem;
+  color: var(--primary-text-color);
+}

@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./profile.module.css";
 import { Sidebar } from "@/components/sidebar";
 import { Gallery } from "@/components/gallery";
+import { Notifications } from "@/components/notifications";
 
 export default function Profile() {
   return (
@@ -59,6 +60,8 @@ export default function Profile() {
         <div className={styles.row}></div>
 
           <Gallery />
+
+          <Notifications />
 
       </div>
     </div>
